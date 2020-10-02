@@ -1,4 +1,5 @@
-trying to step
+The Simple Guide for the developers
+==============
 install python 3.8.3
 create .venv --> python -m venv .venv
 activate --> .venv/Scripts/activate

@@ -48,6 +48,7 @@ and install to your environment:
 Unfortunately, some features in PyQt5 are not compatible with the previous Windows version. Therefore, if you are using Windows 8.1, rename 'Qt5Bluetooth.dll' to 'Qt5Bluetooth.dll1' in '.venv\Lib\site-packages\PyQt5\Qt\bin\'
 
 ## References
+If you will use this software, please add these references to your research:
 """
 @article{styawan_lindu_2020,
 	title = {Lindu {Software}: {A} {Free} {Seismological} {Data} {Processing} {Software} {For} {Traveltime} {Tomography} {Using} {Python} {Framework}},
