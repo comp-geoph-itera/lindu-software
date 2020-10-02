@@ -1,0 +1,23 @@
+trying to step
+install python 3.8.3
+create .venv --> python -m venv .venv
+activate --> .venv/Scripts/activate
+
+install microsoft visual c++ 14.0
+https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+installing package
+numpy==1.19.2
+scipy==1.5.2
+matplotlib==3.3.2
+mayavi==4.7.2
+PyQt5==5.15.1
+obspy==1.2.2
+geos==0.2.2
+pyproj==2.6.1.post1
+opencv-python==4.4.0.44
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap select basemap-1.2.2-cp38-cp38-win_amd64.whl
+pip install basemap-1.2.2-cp38-cp38-win_amd64.whl
+
+If you are using Windows 8.1 then, rename Qt5Bluetooth.dll to Qt5Bluetooth.dll1 in .venv\Lib\site-packages\PyQt5\Qt\bin\
