@@ -8,16 +8,16 @@ yudha.styawan@staff.itera.ac.id
 Thank you!
 
 # Developer
-If you would like to be the collaborator of this software. You could use these steps for making your own environment.
+If you would like to be the collaborator of this software, you could use these several steps for making your own environment in Lindu software repository.
 
 ## Python version
-we use python 3.8.3 version. However, you can create 'conda' environment based on this version if you are using Anaconda or Miniconda.
+we use python 3.8.3 version. However, you can create `conda` environment based on this version if you are using Anaconda or Miniconda.
 
 ## Create Python environment
-after you clone this repository, go to 'lindu software' directory and then create '.venv' by commanding
-'python -m venv .venv'
+after you clone this repository, go to `lindu software` directory and then create `.venv` by commanding
+`python -m venv .venv`
 then activate it
-'.venv/Scripts/activate'
+`.venv/Scripts/activate`
 
 ## Microsoft Visual C++ 14.0 or more
 Check your Windows if it has been installed MSVC or not. You can check this page:
@@ -25,7 +25,7 @@ Check your Windows if it has been installed MSVC or not. You can check this page
 
 ## Install the requirement.txt
 The packages that you need to be installed by using PIP:
-"""
+```
 numpy==1.19.2
 scipy==1.5.2
 matplotlib==3.3.2
@@ -35,21 +35,21 @@ obspy==1.2.2
 geos==0.2.2
 pyproj==2.6.1.post1
 opencv-python==4.4.0.44
-"""
+```
 Or you can use this command recursively:
-'pip install -r requirements.txt'
+`pip install -r requirements.txt`
 
 ## Install Basemap Toolkit
 Download basemap wheel in [https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap](https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap)
 and install to your environment:
-'pip install basemap-1.2.2-cp38-cp38-win_amd64.whl'
+`pip install basemap-1.2.2-cp38-cp38-win_amd64.whl`
 
 ## Check the compatibility of Windows version
-Unfortunately, some features in PyQt5 are not compatible with the previous Windows version. Therefore, if you are using Windows 8.1, rename 'Qt5Bluetooth.dll' to 'Qt5Bluetooth.dll1' in '.venv\Lib\site-packages\PyQt5\Qt\bin\'
+Unfortunately, some features in PyQt5 are not compatible with the previous Windows version. Therefore, if you are using Windows 8.1, rename `Qt5Bluetooth.dll` to `Qt5Bluetooth.dll1` in `.venv\Lib\site-packages\PyQt5\Qt\bin\`
 
 ## References
 If you will use this software, please add these references to your research:
-"""
+```
 @article{styawan_lindu_2020,
 	title = {Lindu {Software}: {A} {Free} {Seismological} {Data} {Processing} {Software} {For} {Traveltime} {Tomography} {Using} {Python} {Framework}},
 	volume = {537},
@@ -109,4 +109,4 @@ If you will use this software, please add these references to your research:
 	pages = {012021},
 	file = {Andika et al_2019_Lindu Software.pdf:/home/yudha/Researchs/Literatures/Andika et al_2019_Lindu Software2.pdf:application/pdf}
 }
-"""
+```
