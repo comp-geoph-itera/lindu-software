@@ -66,8 +66,7 @@ If you will use this software, please add these references to your research:
 	month = aug,
 	year = {2020},
 	note = {Publisher: IOP Publishing},
-	pages = {012017},
-	file = {Styawan et al_2020_Lindu Software.pdf:/home/yudha/Researchs/Literatures/Styawan et al_2020_Lindu Software.pdf:application/pdf}
+	pages = {012017}
 }
 
 @article{styawan_preliminary_2019,
@@ -86,8 +85,7 @@ If you will use this software, please add these references to your research:
 	month = aug,
 	year = {2019},
 	note = {Publisher: IOP Publishing},
-	pages = {012078},
-	file = {Styawan et al_2019_The preliminary results of Lindu software.pdf:/home/yudha/Researchs/Literatures/Styawan et al_2019_The preliminary results of Lindu software2.pdf:application/pdf}
+	pages = {012078}
 }
 
 @article{andika_lindu_2019,
@@ -106,7 +104,6 @@ If you will use this software, please add these references to your research:
 	month = aug,
 	year = {2019},
 	note = {Publisher: IOP Publishing},
-	pages = {012021},
-	file = {Andika et al_2019_Lindu Software.pdf:/home/yudha/Researchs/Literatures/Andika et al_2019_Lindu Software2.pdf:application/pdf}
+	pages = {012021}
 }
 ```
