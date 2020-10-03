@@ -53,7 +53,7 @@ and install to your environment:
 ## 6. Check the compatibility of Windows version
 Unfortunately, some features in PyQt5 are not compatible with the previous Windows version. Therefore, if you are using Windows 8.1, rename `Qt5Bluetooth.dll` to `Qt5Bluetooth.dll1` in `.venv\Lib\site-packages\PyQt5\Qt\bin\`
 
-## References
+# References
 If you will use this software, please add these references to your research:
 ```
 @article{styawan_lindu_2020,
@@ -113,3 +113,18 @@ If you will use this software, please add these references to your research:
 	pages = {012021}
 }
 ```
+
+# Galleries
+<p align="center">
+	<img src="/imgs/lindu-splash-screen.png" alt="Lindu Logo" width="300"/>
+	<br>
+	Lindu Splash Screen
+	<br>
+	<img src="/imgs/lindu-interface-1.png" alt="Lindu Interface" width="300"/>
+	<img src="/imgs/lindu-interface-2.png" alt="Lindu Interface" width="300"/>
+	<img src="/imgs/lindu-interface-3.png" alt="Lindu Interface" width="300"/>
+	<img src="/imgs/lindu-interface-4.png" alt="Lindu Interface" width="300"/>
+	<br>
+	Lindu Interface
+	<br>
+</p>
