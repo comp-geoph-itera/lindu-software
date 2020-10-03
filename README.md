@@ -121,9 +121,11 @@ If you will use this software, please add these references to your research:
 	Lindu Splash Screen
 	<br>
 	<img src="/imgs/lindu-interface-1.png" alt="Lindu Interface" width="200"/>
+	<br>
 	<img src="/imgs/lindu-interface-2.png" alt="Lindu Interface" width="200"/>
 	<br>
 	<img src="/imgs/lindu-interface-3.png" alt="Lindu Interface" width="200"/>
+	<br>
 	<img src="/imgs/lindu-interface-4.png" alt="Lindu Interface" width="200"/>
 	<br>
 	Lindu Interface
