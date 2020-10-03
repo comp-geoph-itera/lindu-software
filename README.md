@@ -10,20 +10,20 @@ Thank you!
 # Developer
 If you would like to be the collaborator of this software, you could use these several steps for making your own environment in Lindu software repository.
 
-## Python version
-we use python 3.8.3 version. However, you can create `conda` environment based on this version if you are using Anaconda or Miniconda.
+## 1. Python version
+we use python 3.8.3 version. However, you can create `conda` environment based on this version if you are using Anaconda or Miniconda. After that, you can clone the repository into your local disk. `git clone git@github.com:comp-geoph-itera/lindu-software.git`.
 
-## Create Python environment
+## 2. Create Python environment
 after you clone this repository, go to `lindu software` directory and then create `.venv` by commanding
 `python -m venv .venv`
 then activate it
 `.venv/Scripts/activate`
 
-## Microsoft Visual C++ 14.0 or more
+## 3. Microsoft Visual C++ 14.0 or more
 Check your Windows if it has been installed MSVC or not. You can check this page:
 [https://visualstudio.microsoft.com/visual-cpp-build-tools/](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 
-## Install the requirement.txt
+## 4. Install the requirement.txt
 The packages that you need to be installed by using PIP:
 ```
 numpy==1.19.2
@@ -39,12 +39,12 @@ opencv-python==4.4.0.44
 Or you can use this command recursively:
 `pip install -r requirements.txt`
 
-## Install Basemap Toolkit
+## 5. Install Basemap Toolkit
 Download basemap wheel in [https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap](https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap)
 and install to your environment:
 `pip install basemap-1.2.2-cp38-cp38-win_amd64.whl`
 
-## Check the compatibility of Windows version
+## 6. Check the compatibility of Windows version
 Unfortunately, some features in PyQt5 are not compatible with the previous Windows version. Therefore, if you are using Windows 8.1, rename `Qt5Bluetooth.dll` to `Qt5Bluetooth.dll1` in `.venv\Lib\site-packages\PyQt5\Qt\bin\`
 
 ## References
