@@ -22,3 +22,6 @@ https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap select basemap-1.2.2-cp38-cp
 pip install basemap-1.2.2-cp38-cp38-win_amd64.whl
 
 If you are using Windows 8.1 then, rename Qt5Bluetooth.dll to Qt5Bluetooth.dll1 in .venv\Lib\site-packages\PyQt5\Qt\bin\
+
+==============
+You can see more details in README.md
