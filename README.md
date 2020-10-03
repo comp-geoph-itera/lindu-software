@@ -1,9 +1,10 @@
 # Lindu Software
-<center>
+<p align="center">
 	<img src="/imgs/lindu-logo.png" alt="Lindu Logo" width="200"/>
-</center>
-Lindu Software Logo
-<br>
+	<br>
+	Lindu Software Logo
+	<br>
+</p>
 Progress of Lindu Software Codes (for seismological data processing: determining and relocating hypocenter; traveltime tomography)
 
 We apologize for delaying development for some time. The stable release will be updated as soon as possible.
