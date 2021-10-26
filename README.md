@@ -7,6 +7,8 @@
 </p>
 Progress of Lindu Software Codes (for seismological data processing: determining and relocating hypocenter; traveltime tomography)
 
+We are still developing the package version: see more on [package](https://github.com/comp-geoph-itera/lindu-software/tree/package) branch.
+
 This is the development branch for the future release.
 
 See the [changelog file](https://github.com/comp-geoph-itera/lindu-software/blob/dev/CHANGELOG.md)
@@ -79,17 +81,31 @@ Or you can use this command recursively:
 
 **Update:**
 
-You need to install PyQt4 manually by download on [www.lfd.uci.edu](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyqt4)
+You need to install manually of these packages:
 
-## 5. Install Basemap Toolkit
-*Caution: Didn't try it yet*
+PyQt4:
 
-Download basemap wheel in [https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap](https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap)
+[https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyqt4](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyqt4)
+
+VTK:
+
+[https://www.lfd.uci.edu/~gohlke/pythonlibs/#vtk](https://www.lfd.uci.edu/~gohlke/pythonlibs/#vtk)
+
+Mayavi:
+
+[https://www.lfd.uci.edu/~gohlke/pythonlibs/#mayavi](https://www.lfd.uci.edu/~gohlke/pythonlibs/#mayavi)
+
+Basemap:
+
+[https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap](https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap)
+
+
 and install to your environment:
-`pip install basemap-1.2.2-cp36-cp36-win_amd64.whl`
+
+`pip install <package-file-name>`
 
 ## 6. Check the compatibility of Windows version
-*Caution: Didn't try it yet*
+Currently the program is working on Windows 10.
 
 ## 7. Build an .exe program
 `python setup.py build`
